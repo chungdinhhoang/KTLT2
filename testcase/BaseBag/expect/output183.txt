@@ -1,0 +1,62 @@
+Sherlock[index=0;pos=(1,3);moving_rule=RL] HP: 155 EXP: 749
+Watson[index=1;pos=(2,1);moving_rule=UD] HP: 301 EXP: 69
+Bag[count=0]
+Bag[count=0]
+LINE 5: * Insert EXCEMPTION_CARD into bag
+SherlockBag: Bag[count=1;ExcemptionCard]
+WatsonBag Bag[count=1;ExcemptionCard]
+LINE 6: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 7: * Insert MAGIC_BOOK into bag
+SherlockBag: Bag[count=1;MagicBook]
+WatsonBag Bag[count=1;MagicBook]
+LINE 8: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 9: * Insert ENERGY_DRINK into bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 10: * Insert FIRST_AID into bag
+SherlockBag: Bag[count=2;FirstAid,EnergyDrink]
+WatsonBag Bag[count=2;FirstAid,EnergyDrink]
+LINE 11: * Get  from bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 12: * Insert ENERGY_DRINK into bag
+SherlockBag: Bag[count=2;EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=2;EnergyDrink,EnergyDrink]
+LINE 13: * Get  from bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 14: * Insert MAGIC_BOOK into bag
+SherlockBag: Bag[count=2;MagicBook,EnergyDrink]
+WatsonBag Bag[count=2;MagicBook,EnergyDrink]
+LINE 15: * Get  from bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 16: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 17: * Get EXCEMPTION_CARD from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 18: * Insert PASSING_CARD into bag
+SherlockBag: Bag[count=1;PassingCard]
+WatsonBag Bag[count=1;PassingCard]
+LINE 19: * Insert MAGIC_BOOK into bag
+SherlockBag: Bag[count=2;MagicBook,PassingCard]
+WatsonBag Bag[count=2;MagicBook,PassingCard]
+LINE 20: * Get EXCEMPTION_CARD from bag
+SherlockBag: Bag[count=2;MagicBook,PassingCard]
+WatsonBag Bag[count=2;MagicBook,PassingCard]
+LINE 21: * Get  from bag
+SherlockBag: Bag[count=1;PassingCard]
+WatsonBag Bag[count=1;PassingCard]
+LINE 22: * Get EXCEMPTION_CARD from bag
+SherlockBag: Bag[count=1;PassingCard]
+WatsonBag Bag[count=1;PassingCard]
+LINE 23: * Insert PASSING_CARD into bag
+SherlockBag: Bag[count=2;PassingCard,PassingCard]
+WatsonBag Bag[count=2;PassingCard,PassingCard]
+End.

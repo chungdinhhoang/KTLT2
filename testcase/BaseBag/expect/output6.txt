@@ -1,0 +1,35 @@
+Sherlock[index=0;pos=(1,3);moving_rule=RL] HP: 61 EXP: 652
+Watson[index=1;pos=(2,1);moving_rule=UD] HP: 302 EXP: 899
+Bag[count=0]
+Bag[count=0]
+LINE 5: * Get FIRST_AID from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 6: * Insert FIRST_AID into bag
+SherlockBag: Bag[count=1;FirstAid]
+WatsonBag Bag[count=1;FirstAid]
+LINE 7: * Get FIRST_AID from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 8: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 9: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 10: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 11: * Insert FIRST_AID into bag
+SherlockBag: Bag[count=1;FirstAid]
+WatsonBag Bag[count=1;FirstAid]
+LINE 12: * Insert EXCEMPTION_CARD into bag
+SherlockBag: Bag[count=2;ExcemptionCard,FirstAid]
+WatsonBag Bag[count=2;ExcemptionCard,FirstAid]
+LINE 13: * Get  from bag
+SherlockBag: Bag[count=1;FirstAid]
+WatsonBag Bag[count=1;FirstAid]
+LINE 14: * Get FIRST_AID from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+End.

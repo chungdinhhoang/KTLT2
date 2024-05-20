@@ -1,0 +1,56 @@
+Sherlock[index=0;pos=(1,3);moving_rule=RL] HP: 264 EXP: 627
+Watson[index=1;pos=(2,1);moving_rule=UD] HP: 173 EXP: 285
+Bag[count=0]
+Bag[count=0]
+LINE 5: * Insert ENERGY_DRINK into bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 6: * Insert ENERGY_DRINK into bag
+SherlockBag: Bag[count=2;EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=2;EnergyDrink,EnergyDrink]
+LINE 7: * Get  from bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 8: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 9: * Insert FIRST_AID into bag
+SherlockBag: Bag[count=1;FirstAid]
+WatsonBag Bag[count=1;FirstAid]
+LINE 10: * Insert PASSING_CARD into bag
+SherlockBag: Bag[count=2;PassingCard,FirstAid]
+WatsonBag Bag[count=2;PassingCard,FirstAid]
+LINE 11: * Get PASSING_CARD from bag
+SherlockBag: Bag[count=1;FirstAid]
+WatsonBag Bag[count=1;FirstAid]
+LINE 12: * Insert MAGIC_BOOK into bag
+SherlockBag: Bag[count=2;MagicBook,FirstAid]
+WatsonBag Bag[count=2;MagicBook,FirstAid]
+LINE 13: * Get  from bag
+SherlockBag: Bag[count=1;FirstAid]
+WatsonBag Bag[count=1;FirstAid]
+LINE 14: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 15: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 16: * Insert MAGIC_BOOK into bag
+SherlockBag: Bag[count=1;MagicBook]
+WatsonBag Bag[count=1;MagicBook]
+LINE 17: * Insert EXCEMPTION_CARD into bag
+SherlockBag: Bag[count=2;ExcemptionCard,MagicBook]
+WatsonBag Bag[count=2;ExcemptionCard,MagicBook]
+LINE 18: * Get  from bag
+SherlockBag: Bag[count=1;MagicBook]
+WatsonBag Bag[count=1;MagicBook]
+LINE 19: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 20: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 21: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+End.

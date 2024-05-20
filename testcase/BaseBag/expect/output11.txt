@@ -1,0 +1,53 @@
+Sherlock[index=0;pos=(1,3);moving_rule=RL] HP: 409 EXP: 128
+Watson[index=1;pos=(2,1);moving_rule=UD] HP: 400 EXP: 237
+Bag[count=0]
+Bag[count=0]
+LINE 5: * Get ENERGY_DRINK from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 6: * Insert EXCEMPTION_CARD into bag
+SherlockBag: Bag[count=1;ExcemptionCard]
+WatsonBag Bag[count=1;ExcemptionCard]
+LINE 7: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 8: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+LINE 9: * Insert ENERGY_DRINK into bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 10: * Insert ENERGY_DRINK into bag
+SherlockBag: Bag[count=2;EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=2;EnergyDrink,EnergyDrink]
+LINE 11: * Get EXCEMPTION_CARD from bag
+SherlockBag: Bag[count=2;EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=2;EnergyDrink,EnergyDrink]
+LINE 12: * Insert PASSING_CARD into bag
+SherlockBag: Bag[count=3;PassingCard,EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=3;PassingCard,EnergyDrink,EnergyDrink]
+LINE 13: * Insert FIRST_AID into bag
+SherlockBag: Bag[count=4;FirstAid,PassingCard,EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=4;FirstAid,PassingCard,EnergyDrink,EnergyDrink]
+LINE 14: * Insert EXCEMPTION_CARD into bag
+SherlockBag: Bag[count=5;ExcemptionCard,FirstAid,PassingCard,EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=5;ExcemptionCard,FirstAid,PassingCard,EnergyDrink,EnergyDrink]
+LINE 15: * Get  from bag
+SherlockBag: Bag[count=4;FirstAid,PassingCard,EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=4;FirstAid,PassingCard,EnergyDrink,EnergyDrink]
+LINE 16: * Get  from bag
+SherlockBag: Bag[count=3;PassingCard,EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=3;PassingCard,EnergyDrink,EnergyDrink]
+LINE 17: * Get FIRST_AID from bag
+SherlockBag: Bag[count=3;PassingCard,EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=3;PassingCard,EnergyDrink,EnergyDrink]
+LINE 18: * Get  from bag
+SherlockBag: Bag[count=2;EnergyDrink,EnergyDrink]
+WatsonBag Bag[count=2;EnergyDrink,EnergyDrink]
+LINE 19: * Get  from bag
+SherlockBag: Bag[count=1;EnergyDrink]
+WatsonBag Bag[count=1;EnergyDrink]
+LINE 20: * Get  from bag
+SherlockBag: Bag[count=0]
+WatsonBag Bag[count=0]
+End.
